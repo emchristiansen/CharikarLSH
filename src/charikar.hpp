@@ -8,6 +8,8 @@
 
 // This is the basic unit of the Charikar LSH scheme. A CharikarStripe
 // is analogous to a single hash function in other LSH schemes.
+// The name "CharikarStripe" is mine; I don't know if there's a proper
+// name for these things.
 struct CharikarStripe {
   const int dimension;
   const int numActiveDimensions;
