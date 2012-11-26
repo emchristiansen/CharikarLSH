@@ -1,4 +1,4 @@
-An implementation of the lookup phase of the locality senstive hashing scheme described in "Similarity Estimation Techniques from Rounding Algorithms" by Moses Charikar (2002)". This code will take a set of equal-length bitstrings and perform approximate nearest-neighbor searches against the set in sublinear time.
+An implementation of the lookup phase of the locality senstive hashing scheme described in "Similarity Estimation Techniques from Rounding Algorithms" by Moses Charikar (2002). This code will take a set of equal-length bitstrings and perform approximate nearest-neighbor searches against the set in sublinear time.
 
 This code does not hash non bitstring data into bitstring form. You'll have to do that yourself.
 
